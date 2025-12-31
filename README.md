@@ -47,4 +47,4 @@
 - **Backend**: Render
 
 ---
-Built with ❤️ by [Your Name/Team]
+Built with ❤️ by Devansh Wadhwani
