@@ -14,11 +14,11 @@ const Footer = () => {
               <span className="font-serif font-bold text-xl text-foreground">ExamEval</span>
             </div>
             <p className="text-sm text-muted-foreground max-w-xs mb-4">
-              AI-powered exam evaluation system using natural language processing 
+              AI-powered exam evaluation system using natural language processing
               for automated, fair, and consistent grading.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                 <Github className="w-5 h-5" />
               </a>
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors">

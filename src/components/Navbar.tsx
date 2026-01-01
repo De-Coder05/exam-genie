@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Brain } from "lucide-react";
+import { Menu, X, Brain, Github } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
 const navLinks = [
@@ -42,6 +42,14 @@ const Navbar = () => {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <Github className="w-5 h-5" />
+            </a>
             <Button variant="ghost" size="sm" onClick={() => navigate("/auth")}>
               Sign In
             </Button>
